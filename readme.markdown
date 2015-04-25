@@ -190,16 +190,18 @@ Your name is the hash of your public key.
 ---
 ## decentralized authentication on the server: generate
 
+generate a unique keypair
+
 ```
-# generate a unique keypair
 $ ssh-keygen
 ```
 
 ---
 ## decentralized authentication on the server: your name
 
+your name
+
 ```
-# your name
 $ shasum < ~/.ssh/id_rsa.pub
 a71a6fc6d7e09ae98b6e5dc2a3d02770aa323cfb  -
 ```
@@ -207,8 +209,9 @@ a71a6fc6d7e09ae98b6e5dc2a3d02770aa323cfb  -
 ---
 ## decentralized authentication on the server: auth
 
+use your public key to authenticate from now on:
+
 ```
-# use your public key to authenticate from now on:
 ssh substack.net 'cat>>.ssh/authorized_keys' <~/.ssh/id_rsa.pub
 ```
 
