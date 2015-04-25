@@ -145,12 +145,12 @@ be about building distributed systems.
 # so you've decided to build a distributed system
 
 ```
-    __
-   /  \     [ It looks like
- -+-  -+-   [
- (O)  (O)   [
-  |    |
-  | |  | /
+    __       _________________________________
+   /  \     [ It looks like you're building a ]
+ -+-  -+-   [ distributed system.             ]
+ (O)  (O)   [  _______________________________]
+  |    |     |/
+  | |  | / --'
   | \__||
   |     |
    \___/
@@ -365,6 +365,9 @@ CACHE MANIFEST
 NETWORK:
 *
 ```
+
+or load html from the bittorrent dht
+
 ---
 
 http://hyperboot.org
