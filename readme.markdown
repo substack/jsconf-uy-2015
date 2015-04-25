@@ -2,7 +2,7 @@
 
 how to build services that nobody can own
 
-https://github.com:substack/jsconf-uy-2015
+https://github.com/substack/jsconf-uy-2015
 
 ---
 # mi
